@@ -1,0 +1,26 @@
+html {
+    font-size: 20px;
+    font-family: serif;
+    line-height: 1.6;
+    letter-spacing: 0em;
+    color: #29292D;
+    background-color: #FCFFFF;
+}
+
+body {
+    margin: 2em;
+}
+
+article p, article cite {
+    max-width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+article p {
+    font-size: 1.2em;
+    letter-spacing: .02em;  
+    max-width: 65ch;
+    line-height: 1.65;
+}
+

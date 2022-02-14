@@ -4,7 +4,7 @@ For this exercise, make the text of this article as compelling as possible using
 
 ## Working locally on your computer
 
-Running a simple local server with [Browsersync](https://browsersync.io/): `browser-sync start --server --files "*/*.*"`
+Running a simple local server with [Browsersync](https://browsersync.io/): `browser-sync start --server --files "*.css"`
 
 ## Copyright
 
