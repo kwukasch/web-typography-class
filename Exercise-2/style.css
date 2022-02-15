@@ -24,3 +24,42 @@ article p {
     line-height: 1.65;
 }
 
+article a {
+    color: lightcoral;
+    text-decoration: none;
+}
+
+img {
+    width: 100%;
+}
+
+.full-width {
+    width: 100vw;
+    margin-left: calc(50% - 50vw);
+}
+
+.float-left {
+    float: left;
+    width: 50%;
+    margin-right: 2rem;
+}
+
+.lede {
+    font-family: monospace;
+    font-style: italic;
+    text-align: center;
+    color: aqua;
+    margin-bottom: 3em;
+    line-height: 1;
+}
+
+.lede p {
+    font-size: 1em;
+}
+
+.lede h1 {
+    text-align: center;
+    margin: 4em 2em 0 2em;
+    border: solid 1px rgb(red, green, blue);
+}
+
