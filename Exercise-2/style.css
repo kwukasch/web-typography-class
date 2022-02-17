@@ -1,8 +1,8 @@
 html {
     font-size: 20px;
     font-family: 'Courier New', Courier, monospace;
-    line-height: 30px;
-    letter-spacing: 0em;
+    line-height: 28px;
+    letter-spacing: .1%;
     color: #fefefe;
     background-color: #000000;
 }
@@ -16,7 +16,7 @@ h1 {
     font-size: 72px;
     font-weight: normal;
     line-height: 82px;
-    letter-spacing: -2%;
+    letter-spacing: 0em;
     text-align: left;
     margin-top: 0em;
     margin-bottom: 0em;
@@ -35,16 +35,16 @@ h2 {
 
 h3 {
     font-family: 'Courier New', Courier, monospace;
-    font-size: 20px;
+    font-size: px;
     font-weight: normal;
     line-height: 20px;
     letter-spacing: 5%;
     margin-top: 1em;
-    margin-bottom: 0em; 
+    margin-bottom: 1em; 
     font-style: normal;
+    color: #fefefe;
 }
 
-}
 img {
     width: 100%;
 }
