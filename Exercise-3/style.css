@@ -1,0 +1,94 @@
+html {
+    font-size: 1.2rem;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: lighter;
+    line-height: 1.4rem;
+    letter-spacing: -.025rem;
+    color: #29292D;
+    background-color: #FCFFFF;
+    display: table;
+    margin: auto;
+}
+
+a {
+    color: #8B743D; 
+}
+
+.hed {
+    color:#29292D;
+    font-size: 4rem;
+    font-weight: 100;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: -.015rem;
+    line-height: 4.2rem;
+    margin-top: 2rem;
+    margin-bottom: 0rem;
+    max-width: 75ch;
+    text-align: left;
+}
+
+@media (min-width: 50em) {
+    .hed {
+        font-size: 5rem;
+        line-height: 5.2rem;
+    }
+}
+
+.dek {
+    color:#29292D;
+    font-size: 1rem;
+    font-weight: 100;
+    font-family: 'Courier New', Courier, monospace;
+    letter-spacing: -.065rem;
+    line-height: 1.4rem;
+    margin-top: 1.5rem;
+    margin-bottom: 2rem;
+    max-width: 75ch;
+    text-align: left;
+}
+@media (min-width: 50em) {
+    .dek {
+        font-size: 1.5rem;
+        line-height: 1.8rem;
+    }
+}
+
+h3 {
+    font-size: 1rem;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: lighter;
+    line-height: 1.4rem;
+    letter-spacing: .1rem;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    color: #8B743D;
+}
+
+.meta {
+    font-size: .75rem;
+    font-family: 'Courier New', Courier, monospace;
+    margin-bottom: 1rem;
+    
+}
+
+body {
+    font-size: 1rem;
+    line-height: 1.3rem;
+    margin: 2em;
+    max-width: 75ch;
+}
+
+@media (min-width: 50em) {
+    body {
+        font-size: 1.2rem;
+        line-height: 1.4rem;
+    }
+}
+
+img {
+    max-width: 100%;
+    margin-top: .5em;
+    margin-bottom: 2em;
+    display: block;
+    height: auto;
+}
