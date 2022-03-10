@@ -1,66 +1,41 @@
-html {
-    font-size: 1.2rem;
-    font-family: 'Courier New', Courier, monospace;
-    font-weight: lighter;
-    line-height: 1.4rem;
-    letter-spacing: -.025rem;
-    color: #29292D;
-    background-color: #FCFFFF;
-    display: table;
-    margin: auto;
+
+@font-face {
+	font-family: "JobClarendon";
+	src: url("fonts/JobClarendonVariable-VF-Edu.woff2") format("woff2");
+	font-weight: 1 900;
 }
 
+html {
+    font-size: 100%;
+    font-family: 'JobClarendon';
+    line-height: 1.2;
+}
+    
 a {
     color: #8B743D; 
 }
 
 .hed {
-    color:#29292D;
-    font-size: 4rem;
-    font-weight: 100;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    letter-spacing: -.015rem;
-    line-height: 4.2rem;
-    margin-top: 2rem;
-    margin-bottom: 0rem;
-    max-width: 75ch;
-    text-align: left;
-}
-
-@media (min-width: 50em) {
-    .hed {
-        font-size: 5rem;
-        line-height: 5.2rem;
-    }
+    font-size: 600%;
+    line-height: 1.2;
+    font-weight: 900;
+    position: relative;
+    margin-top: .5em;
+    margin-bottom: 0em;
 }
 
 .dek {
-    color:#29292D;
-    font-size: 1rem;
-    font-weight: 100;
-    font-family: 'Courier New', Courier, monospace;
-    letter-spacing: -.065rem;
-    line-height: 1.4rem;
-    margin-top: 1.5rem;
-    margin-bottom: 2rem;
-    max-width: 75ch;
-    text-align: left;
-}
-@media (min-width: 50em) {
-    .dek {
-        font-size: 1.5rem;
-        line-height: 1.8rem;
-    }
+    font-size: 200%;
+    line-height: 1.2;
+    margin-top: 0;
 }
 
 h3 {
-    font-size: 1rem;
-    font-family: 'Courier New', Courier, monospace;
-    font-weight: lighter;
+    font-size: 80%;
+    font-weight: 900;
     line-height: 1.4rem;
-    letter-spacing: .1rem;
-    margin-top: 1em;
-    margin-bottom: 1em;
+    margin-top: 0em;
+    margin-bottom: 0em;
     color: #8B743D;
 }
 
